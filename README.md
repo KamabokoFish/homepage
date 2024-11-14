@@ -1,0 +1,1 @@
+kamaboko homepage(◦ˉ ˘ ˉ◦)

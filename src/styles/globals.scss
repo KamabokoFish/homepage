@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  // htmlとbody要素の高さをviewportの最大まで常に拡張
+  // これを確実に指定しないとposition:stickyの位置が安定しないほか、Viewportの幅がレスポンシブでも不安定になる
+  min-height: 100vh;
+  overflow-wrap: break-word;
+}
+
+// グラデーションを指定
+body:after {
+  content: '';
+  position: fixed; /*固定配置*/
+  top: 0;
+  left: 0; /*左上に固定*/
+  width: 100%;
+  height: 100vh; /*vhを使わないとスマホでみたときに素早くスクロールするとずれる*/
+  z-index: -10;
+  //gradient css background
+  background-color: #4158d0;
+  background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #e29107 100%);
+}
