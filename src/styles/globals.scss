@@ -7,6 +7,7 @@ body {
   // これを確実に指定しないとposition:stickyの位置が安定しないほか、Viewportの幅がレスポンシブでも不安定になる
   min-height: 100vh;
   overflow-wrap: break-word;
+  overflow-y: scroll; // 画面切り替え時の横ずれが気になるので常時表示
 }
 
 // グラデーションを指定
