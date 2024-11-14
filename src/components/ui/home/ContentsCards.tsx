@@ -7,7 +7,7 @@ const ContentsCards: React.FC = () => {
       <ContentCard
         href="/works"
         title="Works"
-        desc="趣味で作ったもの"
+        desc="作ったもの"
         imgUrl="/neko-stamp-white.png"
         gradientClass="bg-gradient-to-br from-teal-500 to-rose-200"
         isExternal={false}
