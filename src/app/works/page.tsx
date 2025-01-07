@@ -15,6 +15,14 @@ type WorkArrayItemType = {
 const workArray: WorkArrayItemType[] = [
   {
     id: 1,
+    href: 'homepage',
+    imgSrc: 'homepage',
+    alt: 'homepage screenshot',
+    title: 'このホームページ',
+    info: '自身のポートフォリオサイト🔎',
+  },
+  {
+    id: 2,
     href: 'roullet-app',
     imgSrc: 'roullet-app',
     alt: 'roullet app image',
@@ -22,7 +30,7 @@ const workArray: WorkArrayItemType[] = [
     info: '新年を占うためのおみくじ🎍',
   },
   {
-    id: 2,
+    id: 3,
     href: 'validation-mock',
     imgSrc: 'validation-mock',
     alt: 'validation mock image',
