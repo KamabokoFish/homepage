@@ -78,21 +78,3 @@ const NavMenu: React.FC = () => {
 };
 
 export default NavMenu;
-
-//ボタン部分の別案
-//overflow-hiddenとtranslateを使わないバージョン
-
-/* <span className="flex flex-col justify-center items-center overflow-hidden">
-          <span
-            className={`flex gap-1 justify-center items-center duration-500 ease-in-out ${isOpen ? 'opacity-0 invisible translate-y-11 w-0 h-0' : ' opacity-100 visible'}`}
-          >
-            <span>Menu</span>
-            <FaRegPaperPlane />
-          </span>
-          <span
-            className={`flex gap-2 justify-center items-center duration-500 ease-in-out ${isOpen ? ' opacity-100 visible' : ' translate-y-11 opacity-0 invisible w-0 h-0 '}`}
-          >
-            <span>Close</span>
-            <IoIosCloseCircleOutline className="scale-125" />
-          </span>
-        </span> */
